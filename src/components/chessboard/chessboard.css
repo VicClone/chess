@@ -1,0 +1,22 @@
+.chessboard {
+    display: flex;
+}
+
+.chessboard-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 75px);
+    margin: 20px auto;
+    border: 2px solid brown;
+}
+
+.chessboard-cell {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-cell {
+    background: brown;
+}
